@@ -1,0 +1,12 @@
+$ORIGIN 60.168.192.in-addr.arpa.
+$TTL 84600
+@       IN SOA  server.servicios.com. root@servicios.com. (
+                                        123312  ; serial
+                                        1h      ; refresh
+                                        2h      ; retry
+                                        1W      ; expire
+                                        1h )    ; minimum
+@       IN      NS      server.servicios.com.
+
+;host en la zona
+3 	IN	PTR	server.servicios.com.
